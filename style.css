@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+#header{
+    text-align: center;
+    color: #ffffff;
+    background: #4c1466;
+    padding: 20px;
+}
+.imageDiv{
+    width: 1000px;
+    height: 300px;
+    margin:20px auto;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.BasicDiv{
+    width: 140px;
+    height: 200px;;
+    transform: rotate(0);
+    transition: .5s;
+    margin: 55px 35px;
+}
+
+/* Hover Part Start */
+.content1:hover{
+    transform: translate(30px, 50px);
+}
+.content2:hover{
+    transform: rotate(360deg);
+}
+.content3:hover{
+    transform: skew(20deg, 20deg);
+}
+.content4:hover{
+    transform: scale(1.5);
+}
+/* Hover Part End */
